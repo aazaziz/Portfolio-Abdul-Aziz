@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background:#7A3C02;
+    color: #ededed;
+}
+
+ .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: #C66200;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+ }
+
+ .logo {
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+ }
+
+ .navbar a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+ }
+
+ .navbar a:hover,
+ .navbar a.active {
+    color: #F9923D;
+ }
+
+/*contact */
+
+.section-header{
+    padding-top: 30px;
+}
+ .contact {
+    position: relative;
+    width: 100%;
+    margin: 45px 0;
+    background: #7A3C02;
+}
+
+
+.contact .container-fluid {
+    background: url(cont1.png) left center no-repeat;
+    background-size: contain;
+}
+
+.contact .contact-form {
+    position: relative;
+    padding: 90px 0 90px 45px;
+    background: #7A3C02
+}
+
+.contact .contact-form input {
+    padding: 15px 0;
+    background: none;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #ededed;
+}
+
+.contact .contact-form textarea {
+    height: 90px;
+    padding: 15px 0;
+    background: none;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #ededed;;
+}
+
+.contact .contact-form .btn {
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #F9923D;
+    background: none;
+    border: 2px solid #ededed;
+    border-radius: 0;
+    transition: .3s;
+}
+
+.contact .contact-form .btn:hover {
+    color: #1d2434;
+    background: #ededed;
+}
+
+.contact .help-block ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+@media (max-width: 767.98px) {
+    .contact .container-fluid {
+        background: none;
+    }
+    
+    .contact .contact-form {
+        padding: 90px 0;
+    }
+}
