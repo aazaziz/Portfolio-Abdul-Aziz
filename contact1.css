@@ -60,7 +60,7 @@ body {
 
 
 .contact .container-fluid {
-    background: url(cont1.png) left center no-repeat;
+    background: url(asset/cont1.png) left center no-repeat;
     background-size: contain;
 }
 
